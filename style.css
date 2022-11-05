@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --background: url(assets/bg-yellow.svg);
+  --background-color: #121214;
+  --primary-font-color: #E1E1E6;
+  --card-color-primary: #F7DD43;
+  --card-background-color: #1D1C19; 
+  --card-title-border-color: #746615;
+  --card-game-border-color: #323238;
+}
+
+body.blue {
+  --background: url(assets/bg-blue.svg);
+  --card-color-primary: #338AF3;
+  --card-background-color: #202024; 
+  --card-title-border-color: #338AF3;
+}
+
+body.green {
+  --background: url(assets/bg-green.svg);
+  --card-color-primary: #047C3F;
+  --card-background-color: #1A1F1B;
+  --card-title-border-color: #047C3F;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: var(--background-color) var(--background)  no-repeat top center/cover;
+}
+
+#app {
+  width: fit-content;
+  margin: auto;
+  padding-top: 52px;
+} 
+
+header {
+  margin-bottom: 63px;
+  text-align: center;
+}
+
+#cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.card {
+  padding: 32px 23px;
+  border-bottom: 2px solid var(--card-color-primary);
+  border-radius: 6px;
+  text-align: center;
+  background: var(--card-background-color);
+  animation: appear .8s ease-in-out backwards;
+}
+
+.card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: fit-content;
+  padding: 8px 16px;
+  border: 1px solid var(--card-title-border-color);
+  border-radius: 6px;
+  margin-inline: auto;
+  margin-bottom: 53px;
+  font-size: 24px;
+  font-style: bold;
+  color: #F7DD43;
+}
+
+.card h2 span {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: var(--primary-font-color);
+}
+
+.card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 270px;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card ul li + li {
+  padding-top: 24px;
+  border-top: 1px solid var(--card-game-border-color);
+}
+
+.card ul li strong {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 125%;
+  color: var(--primary-font-color);
+}
+
+.card ul li strong, .card ul li img {
+  transition: transform .3s ease-in-out;
+}
+
+.card ul li strong:hover, .card ul li img:hover {
+  transform: scale(1.1);
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 769px) {
+  #cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 670px;
+  }
+}
