@@ -3,6 +3,7 @@
 ## :soccer: **Projeto**
 Este projeto foi feito no evento Next Level Week (NLW) #10 da Rocketseat, trazendo como temática a Copa do Mundo de 2022. Ele apresenta uma pequena página web que contém cartões com os dias, horários e jogos que irão acontecer durante a Copa.
 
+_"Calendário pessoal de jogos da Copa do Mundo de 2022"._
 
 ## :link: **Link**
 *[Link do projeto.](https://nlw-copa-explorer-pied.vercel.app)*
