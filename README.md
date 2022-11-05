@@ -5,7 +5,7 @@ Este projeto foi feito no evento Next Level Week (NLW) #10 da Rocketseat, trazen
 
 
 ## :link: **Link**
-*[Link do projeto.](https://explorer-lab-jet.vercel.app)*
+*[Link do projeto.](https://nlw-copa-explorer-pied.vercel.app)*
 
 ## :art: **Visual do Projeto**
 ### *Desktop e Telas Maiores*
@@ -38,6 +38,6 @@ Esse projeto está sob a licença MIT.
   <img alt="License" src="https://img.shields.io/static/v1?label=License&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-Feito com ♥ por Rocketseat e com :purple_heart: por [David Silva](https://www.linkedin.com/in/davsilvam/).
+Feito com ♥ por [Rocketseat](https://rocketseat.com.br/) e com :purple_heart: por [David Silva](https://www.linkedin.com/in/davsilvam/).
 
 ---
