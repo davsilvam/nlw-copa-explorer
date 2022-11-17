@@ -41,7 +41,7 @@ Esse projeto está sob a licença MIT.
 </p>
 
 <p align="center">
-   Feito com ♥ por [Rocketseat](https://rocketseat.com.br/) e com :purple_heart: por [David Silva](https://www.linkedin.com/in/davsilvam/).
+   Feito com ♥ por <a href="https://rocketseat.com.br/">Rocketseat</a> e com :purple_heart: por <a href="https://www.linkedin.com/in/davsilvam/">David Silva</a>.
 </p>
 
 ---
